@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIGAChat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>GIGAChat</h2>
+            <select id="voiceSelect"></select>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                <p>Hello! How can I assist you today?</p>
+            </div>
+        </div>
+       
+    </div>
+    <div class="chat-input">
+        <button id="Voice" onclick="voiceToText()"><img src="/image/mic_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" srcset=""></button>
+        <input type="text" id="user-input" placeholder="Type your message here..." />
+        <button id="send-button" onclick="fetchApi()"><img src="/image/send_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" srcset=""></button>
+    </div>
+    
+  
+    
+    <script src="script.js"></script>
+</body>
+</html>
