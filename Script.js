@@ -20,7 +20,7 @@ function fetchApi() {
 
     userInput.value = ""; 
 
-    const API_KEY = "AIzaSyCtyNnfDRqSN3IoyvGUY_cSHop8ayoM8O8"; 
+    const API_KEY = ""; 
 
     if (API_KEY === "") {
       alert("Enter Your Api Key");
